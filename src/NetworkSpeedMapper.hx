@@ -293,7 +293,7 @@ class NetworkSpeedMapper {
 	static function main() {
 		haxe.Log.trace = customTrace;
 		if ( Sys.args().length == 1 && Sys.args()[0] == '--version' ) {
-			Sys.println( FossilTools.getCheckoutUuid() );
+			Sys.println( "public preview" );
 		}
 		else {
 			var emmeNetPath = Sys.getEnv( 'EMME_NET' );
