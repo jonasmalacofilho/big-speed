@@ -3,6 +3,7 @@
 --each
 
 -main NetworkSpeedMapper
+-lib hxgit
 -neko bin/speed_mapper.n
 -cmd nekotools boot bin/speed_mapper.n
 

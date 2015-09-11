@@ -5,6 +5,7 @@ import vehjo.macro.Debug;
 import vehjo.macro.Error;
 using vehjo.LazyLambda;
 
+@:build(hxgit.Git.build("."))  // add and populate a static `git` field
 class NetworkSpeedMapper {
 
 	static var stdin = Sys.stdin();
@@ -293,7 +294,7 @@ class NetworkSpeedMapper {
 	static function main() {
 		haxe.Log.trace = customTrace;
 		if ( Sys.args().length == 1 && Sys.args()[0] == '--version' ) {
-			Sys.println( "public preview" );
+			Sys.println( StringTools.trim(git) );
 		}
 		else {
 			var emmeNetPath = Sys.getEnv( 'EMME_NET' );
