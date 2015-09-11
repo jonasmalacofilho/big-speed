@@ -1,6 +1,5 @@
 import vehjo.LazyLambda;
 import vehjo.macro.Error;
-import neko.vm.Mutex;
 
 class LinkResult {
 

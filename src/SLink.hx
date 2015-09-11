@@ -1,5 +1,5 @@
-import vehjo.Vector;
 import emmekit.Link;
+import vehjo.Vector;
 
 class SLink {
 

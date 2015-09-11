@@ -1,12 +1,12 @@
 using Std;
 
 class GPSSegment {
-	
+
 	// From point
 	public var t0( default, null ): Float; // s
 	public var x0( default, null ): Float;
 	public var y0( default, null ): Float;
-	
+
 	// To point
 	public var t1( default, null ): Float; // s
 	public var x1( default, null ): Float;

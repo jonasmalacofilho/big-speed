@@ -2,12 +2,6 @@
 -lib emmekit
 --each
 
--main LoadSpeedResultsFromEMR
--neko bin/loadRes.n
--cmd nekotools boot bin/loadRes.n
-
---next
-
 -main NetworkSpeedMapper
 -neko bin/speed_mapper.n
 -cmd nekotools boot bin/speed_mapper.n
@@ -17,16 +11,4 @@
 -main NetworkSpeedReducer
 -neko bin/speed_reducer.n
 -cmd nekotools boot bin/speed_reducer.n
-
---next
-
--main NetworkSpeed
--neko bin/speed.n
--cmd nekotools boot bin/speed.n
-
---next
-
--neko bin/db_load.n
--main db.Load
--D fake
 

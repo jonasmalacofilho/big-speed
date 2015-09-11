@@ -1,8 +1,8 @@
-import vehjo.macro.Debug;
-import vehjo.macro.Error;
-import vehjo.Vector;
 import emmekit.Link;
 import emmekit.Scenario;
+import vehjo.Vector;
+import vehjo.macro.Debug;
+import vehjo.macro.Error;
 using vehjo.LazyLambda;
 
 class NetworkSpeedMapper {

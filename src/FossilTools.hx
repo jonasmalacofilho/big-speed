@@ -1,5 +1,5 @@
-import haxe.macro.Expr;
 import haxe.macro.Context;
+import haxe.macro.Expr;
 
 class FossilTools {
 	@:macro public static function getCheckoutUuid( ?path: String = '.', ?fossilExec: String = 'fossil' ): ExprOf<String> {
